@@ -1,0 +1,6 @@
+
+#temp dead character target from AGOT
+dead_target = {
+	cached = yes # Keep a cache of all trait holders, to use with the corresponding event trigger 	
+	customizer = no
+}

@@ -1,0 +1,292 @@
+#######################################
+# Good Gods
+#######################################
+
+God = {
+    opposites = {
+        Fallen_God
+        Fallen_Goddess
+        Fallen_Angel
+    }
+
+    immortal = yes
+    agnatic = no
+    ruler_designer_cost = 0
+
+    diplomacy = 40
+    martial = 40
+    stewardship = 40
+    intrigue = 40
+    learning = 40
+    combat_rating = 22
+    health = 100
+    levy_size = 1
+    monthly_character_prestige = 2
+    monthly_character_piety = 15
+    monthly_character_wealth = 5
+
+    fertility_penalty = -0.4
+
+    opposite_opinion = -10000
+    same_opinion = 100
+    general_opinion = -50
+    vassal_opinion = 200
+}
+
+Goddess = {
+    opposites = {
+        Fallen_God
+        Fallen_Goddess
+        Fallen_Angel
+    }
+
+    immortal = yes
+    agnatic = no
+    ruler_designer_cost = 0
+
+    diplomacy = 40
+    martial = 40
+    stewardship = 40
+    intrigue = 40
+    learning = 40
+    combat_rating = 22
+    health = 100
+    levy_size = 1
+    monthly_character_prestige = 2
+    monthly_character_piety = 15
+    monthly_character_wealth = 5
+
+    fertility_penalty = -0.4
+
+    opposite_opinion = -10000
+    same_opinion = 100
+    general_opinion = -50
+    vassal_opinion = 200
+}
+
+Angel = {
+    opposites = {
+        Fallen_God
+        Fallen_Goddess
+        Fallen_Angel
+    }
+
+    immortal = yes
+    agnatic = no
+    customizer = no
+  
+    diplomacy = 10
+    martial = 10
+    stewardship = 10
+    intrigue = 10
+    learning = 10
+    combat_rating = 12
+    health = 50
+    monthly_character_piety = 1
+    monthly_character_wealth = 1
+
+    fertility_penalty = -0.2
+
+    opposite_opinion = -10000
+    same_opinion = 100
+    general_opinion = 50
+    vassal_opinion = 50
+}
+
+################################# 
+# EVIL GODS
+#################################
+
+Fallen_God = {
+    opposites = {
+        God
+        Goddess
+        Angel
+    }
+
+    immortal = yes
+    agnatic = no
+    ruler_designer_cost = 0
+    
+    diplomacy = 40
+    martial = 40
+    stewardship = 40
+    intrigue = 40
+    learning = 40
+    combat_rating = 22
+    health = 100
+    levy_size = 1
+    monthly_character_prestige = 2
+    monthly_character_piety = 15
+    monthly_character_wealth = 5
+
+    fertility_penalty = -0.4
+    
+    opposite_opinion = -10000
+    same_opinion = 100
+    general_opinion = -100
+    vassal_opinion = 200
+}
+
+Fallen_Goddess = {
+    opposites = {
+        God
+        Goddess
+        Angel
+    }
+
+    immortal = yes
+    agnatic = no
+    ruler_designer_cost = 0
+    
+    diplomacy = 40
+    martial = 40
+    stewardship = 40
+    intrigue = 40
+    learning = 40
+    combat_rating = 22
+    health = 100
+    levy_size = 1
+    monthly_character_prestige = 2
+    monthly_character_piety = 15
+    monthly_character_wealth = 5
+
+    fertility_penalty = -0.4
+    
+    opposite_opinion = -10000
+    same_opinion = 100
+    general_opinion = -100
+    vassal_opinion = 200
+}
+
+Fallen_Angel = {
+    opposites = {
+        God
+        Goddess
+        Angel
+    }
+
+    immortal = yes
+    agnatic = no
+    customizer = no
+  
+    diplomacy = 10
+    martial = 10
+    stewardship = 10
+    intrigue = 10
+    learning = 10
+    combat_rating = 12
+    health = 50
+    monthly_character_piety = 1
+    monthly_character_wealth = 1
+
+    fertility_penalty = -0.2
+
+    opposite_opinion = -10000
+    same_opinion = 100
+    general_opinion = 50
+    vassal_opinion = 50
+}
+
+#######################################
+#  Demi Gods
+#######################################
+
+Demi_God = {
+    opposites = {
+    }
+
+    immortal = no
+    agnatic = no
+    ruler_designer_cost = 0
+
+    diplomacy = 15
+    martial = 15
+    stewardship = 15
+    intrigue = 15
+    learning = 15
+    combat_rating = 12
+    health = 10
+    levy_size = -0.5
+    monthly_character_prestige = 1
+    monthly_character_piety = 1
+    monthly_character_wealth = 1
+
+    fertility_penalty = -0.2
+
+    same_opinion = 100
+    general_opinion = 50
+    vassal_opinion = 50
+}
+
+Demi_Goddess = {
+    opposites = {
+    }
+
+    immortal = no
+    agnatic = no
+    ruler_designer_cost = 0
+
+    diplomacy = 15
+    martial = 15
+    stewardship = 15
+    intrigue = 15
+    learning = 15
+    combat_rating = 12
+    health = 10
+    levy_size = -0.5
+    monthly_character_prestige = 1
+    monthly_character_piety = 1
+    monthly_character_wealth = 1
+
+    fertility_penalty = -0.2
+
+    same_opinion = 100
+    general_opinion = 50
+    vassal_opinion = 50
+}
+
+####################################
+# Blood of Angels and Gods
+####################################
+
+God_Blood = {
+    opposites = {}
+    immortal = no
+    inherit_chance = 50
+    ruler_designer_cost = 0
+
+    diplomacy = 5
+    martial = 5
+    stewardship = 5
+    intrigue = 5
+    learning = 5
+    health = 2
+    combat_rating = 6
+    monthly_character_prestige = 0.5
+    monthly_character_piety = 0.5
+    monthly_character_wealth = 0.5
+
+    opposite_opinion = -10000
+    same_opinion = 20
+    general_opinion = 10
+    vassal_opinion = 10
+}
+
+Angel_Blood = {
+    opposites =  {}
+    immortal = no
+    inherit_chance = 100
+    customizer = no
+	
+    diplomacy = 5
+    learning = 5
+    health = 2
+    combat_rating = 5
+    monthly_character_piety = 1
+
+    opposite_opinion = 20
+    same_opinion  = 20
+    general_opinion = 10
+    vassal_opinion = 10
+}
